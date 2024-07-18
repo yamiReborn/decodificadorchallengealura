@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <main class="main container">
+         <header class="cabecalho">
+           <img src="" alt="">
+           <h1>Codificador de mensangens</h1>
+         </header>
+         <div class="container__input">
+         <div class="input">
+            <textarea  id="input__texto" placeholder="Digite seu texto aqui"></textarea>
+            <p>ATENÇÃO: Apenas letras minusculas e sem acento!</p>
+        </div>
+
+
+         <div id="output">
+                    <h2>Sua mensagem aparecerá aqui!</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+         </div>
+        </div>
+
+        
+         <div class="buttons">
+             <div class="container__buttons">
+                <button  onclick= "criptografar()" class="btncrip">Criptografar</button>
+                <button  onclick= "descriptografar()" class="btndescrip">Descriptografar</button>
+                <button onclick="copiar()" class="btncopiar">Copiar</button>
+            </div>
+
+            
+         </div>
+     </main>
+
+     <footer class="rodape">     
+   
+        <h3>Desenvolvido por Lucas Mamelli</h3>
+     </footer>
+
+     <script src= "script.js" defer></script>
+     
+</body>
+</html>
